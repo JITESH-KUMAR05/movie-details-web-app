@@ -1,0 +1,57 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.979);
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.search-container{
+    margin: 1rem auto;
+    width: 45rem;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+}
+.movie-name{
+    width: 75%;
+    padding: 1rem;
+    background-color: rgba(70, 69, 69, 0.329);
+    border: none;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+.movie-name:focus{
+    outline: none;
+}
+.btn{
+    width: 25%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border: none;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+/* main details styles */
+.about{
+    margin: 0 auto;
+    width: 45rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+/* .img{
+    background-image: url("https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_SX300.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+} */
